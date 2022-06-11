@@ -3,10 +3,10 @@
   "homepage": "https://octo-pet.github.io",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && mv out build",
+    "build": "next build && next export",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "latest",
